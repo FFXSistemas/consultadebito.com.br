@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route:: get('access/index',function (){
+   return view('pages.index');
+});
