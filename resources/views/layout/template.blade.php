@@ -5,9 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Consulta Débito</title>
+    <link rel="stylesheet" href="/build/css/template.css">
 </head>
 <body>
+    <div class="container-fluid">
+        @include('components._navbar')
+    </div>
+    <div class="content">
+        @yield('content')
+    </div>
+        @include('components._footer')
 
 </body>
 </html>
