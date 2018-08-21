@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/build/css/template.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container">
         @include('components._navbar')
     </div>
     <div class="content">
