@@ -5,15 +5,15 @@
         <div class="row">
             <div class="col-md-7">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <div class="image-man">
-
+                            <img src="https://i.imgur.com/7sXm4fW.png" class="img-responsive" alt="">
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="partners-brand">Logo parceiros</div>
+                    <div class="col-md-7">
+                        <div class="partners-brand first"></div>
                         <div class="calling"><p>Consultas Cadastrais</p></div>
-                        <div class="partners-brand">Logo parceiros</div>
+                        <div class="partners-brand second"></div>
                         <div class="btn btn-success py-2 mt-2 mb-2">Botão comprar</div>
                     </div>
                 </div>
