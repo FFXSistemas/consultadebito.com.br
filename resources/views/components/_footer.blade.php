@@ -11,7 +11,7 @@
             <div class="col-md-6 mt-md-0 mt-3 container-company">
 
                 <!-- Content -->
-                <p class="text-uppercase title-footer">Sobre a empresa</p>
+                <div class="text-uppercase title-footer">Sobre a empresa</div>
                 <p class="about-company">
                     A Consulta Débito é o maior distribuidor de consultas da Serasa Expirian  e Dados Certos no Brasil.
                     Para fazer uso dos nossos serviços apenas se cadastre-se através da opação
@@ -43,7 +43,7 @@
             <div class="col-md-5 mb-md-0 mb-3 container-contact">
 
                 <!-- Links -->
-                <p class="text-uppercase title-footer">Contato</p>
+                <div class="text-uppercase title-footer">Contato</div>
 
                 <ul class="list-footer">
                     <li class="item-list-footer">

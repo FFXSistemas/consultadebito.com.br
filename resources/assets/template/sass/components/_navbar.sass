@@ -1,2 +1,40 @@
-.navbar-brand
-  text-transform: uppercase
+.navbar
+  padding: 0px
+  border-bottom: 1px dotted $ligthGray
+
+.logo
+  img
+    width: 190px
+    height: 80px
+
+.navbar-nav
+  .nav-item
+    border-top: solid 5px transparent
+
+    &:hover
+      border-top: 5px
+      border-top-color: $rose
+      border-top-style: solid
+
+      .title
+        color: $rose
+
+
+    .nav-link
+      padding: 25px 15px
+      //border: 1px solid #000
+
+      font-weight: bolder
+      text-align: center
+      color: $darkGray
+      letter-spacing: 1px
+
+      small
+        font-style: italic
+        font-weight: bolder
+        color: $ligthGray
+
+  .nav-item.client-area
+    .nav-link
+      background-color: #f4f4f4
+      padding-top: 25px

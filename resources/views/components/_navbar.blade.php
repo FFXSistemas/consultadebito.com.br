@@ -1,6 +1,10 @@
-<nav class="navbar navbar-expand-sm bg-transparent">
+<nav class="navbar navbar-expand bg-transparent">
     <!-- Brand/logo -->
-    <a class="navbar-brand" href="#">Logo</a>
+    <a class="navbar-brand" href="#">
+        <div class="logo">
+            <img src="https://i.imgur.com/Gyi9Sqb.png" alt="Consulta Débito">
+        </div>
+    </a>
 
     <!-- Links -->
     <ul class="navbar-nav ml-auto">
