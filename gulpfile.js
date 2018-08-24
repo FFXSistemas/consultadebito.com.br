@@ -1,6 +1,7 @@
 let gulp = require('gulp');
 let sass = require('gulp-sass');
 let concat = require('gulp-concat');
+let uglyfi = require('gulp-uglify');
 let cleanCSS = require('gulp-clean-css');
 
 let destOrigin = 'resources/assets/template/sass/**/*.sass';
@@ -11,6 +12,10 @@ let destOutWatch = 'resources/assets/template/css/*.css';
 
 const  buildCss = [
     "resources/assets/template/css/*.css",
+]
+
+const buildJs = [
+    "node_modules/jquery/dist/jquery.js",
 ]
 
 const webAssetsDir = 'public/build/'
@@ -31,6 +36,13 @@ const webAssetsDir = 'public/build/'
             .pipe(gulp.dest(webAssetsDir+'css/'))
     })
 
+    gulp.task('workJs',function () {
+        return gulp.src(buildJs)
+            .pipe(concat('template.js'))
+            .pipe(uglyfi())
+            .pipe(gulp.dest(webAssetsDir+'js/'))
+    })
+
     gulp.task('watch', function () {
         // Uma lista de observação em tempo real, definindo que tarefa será executando em determinados arquivos ou pastas
         gulp.watch(destOrigin,['sass']);
@@ -38,5 +50,5 @@ const webAssetsDir = 'public/build/'
     });
 
 
-    gulp.task('default',['sass','watch','workInCss']
+    gulp.task('default',['sass','watch','workInCss','workJs']
     );

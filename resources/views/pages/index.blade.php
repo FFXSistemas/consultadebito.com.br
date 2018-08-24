@@ -5,9 +5,8 @@
         <div class="row">
             <div class="col-md-7">
                 <div class="row">
-                    <div class="col-md-5">
-                        <div class="image-man">
-                            <img src="https://i.imgur.com/7sXm4fW.png" alt="">
+                    <div class="col-md-5 only">
+                        <div class="image-man bg-man">
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -38,35 +37,35 @@
                         </div>
                     </div>
                     <div class="body-values-partners">
-                        <ul class="list-price">
-                            <li class="item-service">
-                                <a href="">
+                        <ul class="list-price" id="list-price">
+                            <a href="" class="link-item">
+                                <li class="item-service">
                                     <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
-                                    <span>Completa CPF</span>
-                                    <span>R$ 35,00</span>
-                                </a>
-                            </li>
-                            <li class="item-service">
-                                <a href="">
+                                    <span class="description-item">Completa CPF</span>
+                                    <span class="price-item">R$ 35,00</span>
+                                </li>
+                            </a>
+                            <a href="" class="link-item">
+                                <li class="item-service">
                                     <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
-                                    <span>Completa CNPJ</span>
-                                    <span>R$ 35,00</span>
-                                </a>
-                            </li>
-                            <li class="item-service">
-                                <a href="">
+                                    <span class="description-item">Completa CNPJ</span>
+                                    <span class="price-item">R$ 35,00</span>
+                                </li>
+                            </a>
+                            <a href="" class="link-item">
+                                <li class="item-service">
                                     <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
-                                    <span>Monitoramento CPF</span>
-                                    <span>R$ 35,00</span>
-                                </a>
-                            </li>
-                            <li class="item-service">
-                                <a href="">
+                                    <span class="description-item">Monitoramento CPF</span>
+                                    <span class="price-item">R$ 35,00</span>
+                                </li>
+                            </a>
+                            <a href="" class="link-item">
+                                <li class="item-service">
                                     <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
                                     <span class="description-item">Pendências</span>
                                     <span class="price-item">R$ 7,95</span>
-                                </a>
-                            </li>
+                                </li>
+                            </a>
                         </ul>
                     </div>
 
@@ -88,35 +87,35 @@
                         </div>
                     </div>
                     <div class="body-values-partners">
-                        <ul class="list-price">
-                            <li class="item-service">
-                                <a href="">
+                        <ul class="list-price" id="list-price">
+                            <a href="" class="link-item">
+                                <li class="item-service">
                                     <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
-                                    <span>Chques + Pêndencias</span>
-                                    <span>R$ 35,00</span>
-                                </a>
-                            </li>
-                            <li class="item-service">
-                                <a href="">
+                                    <span class="description-item">Chques + Pêndencias</span>
+                                    <span class="price-item">R$ 35,00</span>
+                                </li>
+                            </a>
+                            <a href="" class="link-item">
+                                <li class="item-service">
                                     <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
-                                    <span>Protestos</span>
-                                    <span>R$ 5,70</span>
-                                </a>
-                            </li>
-                            <li class="item-service">
-                                <a href="">
+                                    <span class="description-item">Protestos</span>
+                                    <span class="price-item">R$ 5,70</span>
+                                </li>
+                            </a>
+                            <a href="" class="link-item">
+                                <li class="item-service">
                                     <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
-                                    <span>Telefônes por CPF/CNPJ</span>
-                                    <span>R$ 2,60</span>
-                                </a>
-                            </li>
-                            <li class="item-service">
-                                <a href="">
+                                    <span class="description-item">Telefônes por CPF/CNPJ</span>
+                                    <span class="price-item">R$ 2,60</span>
+                                </li>
+                            </a>
+                            <a href="" class="link-item">
+                                <li class="item-service">
                                     <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
-                                    <span>Endereços por CPF/CNPJ</span>
-                                    <span>R$ 10,50</span>
-                                </a>
-                            </li>
+                                    <span class="description-item">Endereços por CPF/CNPJ</span>
+                                    <span class="price-item">R$ 10,50</span>
+                                </li>
+                            </a>
                         </ul>
                     </div>
                 </div>
@@ -124,3 +123,43 @@
         </div>
     </div>
 @endsection
+
+@section('extra-scripts')
+    <script>
+        $('.link-item').mouseenter(function () {
+            $(this).find('.description-item').addClass("active");
+            $(this).find('.price-item').addClass("active");
+        })
+
+        $('.link-item').mouseout(function () {
+            $(this).find('.description-item').removeClass("active");
+            $(this).find('.price-item').removeClass("active");
+        })
+
+
+
+        $('.item-service').mouseenter(function () {
+            $(this).find('.description-item').addClass("active");
+            $(this).find('.price-item').addClass("active");
+        })
+
+        $('.item-service').mouseout(function () {
+            $(this).find('.description-item').removeClass("active");
+            $(this).find('.price-item').removeClass("active");
+        })
+
+
+        $('.description-item').mouseenter(function () {
+            $(this).addClass("active");
+            $(this).find('.price-item').addClass("active");
+        })
+
+        $('.description-item').mouseout(function () {
+            $(this).removeClass("active");
+            $(this).find('.price-item').removeClass("active");
+        })
+    </script>
+@endsection
+
+
+

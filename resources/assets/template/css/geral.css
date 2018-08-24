@@ -6390,14 +6390,18 @@ a.text-dark:hover, a.text-dark:focus {
     .page-footer .base-footer a {
       color: #cac8cc; }
 
+.col-md-5.only {
+  padding: 0px; }
+
 .image-man {
   display: block;
-  height: 100%;
-  width: 100%;
-  position: relative; }
-  .image-man img {
-    width: 100%;
-    height: 100%; }
+  position: relative;
+  height: 100%; }
+
+.image-man.bg-man {
+  background-image: url("https://i.imgur.com/7sXm4fW.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
 
 .partners-brand {
   display: block;
@@ -6427,29 +6431,32 @@ a.text-dark:hover, a.text-dark:focus {
     border-bottom: dotted 1px #5d5d5d;
     margin-top: 4px; }
 
-.body-values-partners .list-price .item-service {
+.body-values-partners .list-price .link-item {
   display: block;
   border-bottom: 1px dotted #5d5d5d;
   padding: 10px 0px; }
-  .body-values-partners .list-price .item-service a {
+  .body-values-partners .list-price .link-item .item-service {
     font-size: 12px;
     font-weight: bolder;
     color: #5d5d5d; }
-    .body-values-partners .list-price .item-service a .description-item.active {
-      color: #ce2041; }
-    .body-values-partners .list-price .item-service a .price-item {
+    .body-values-partners .list-price .link-item .item-service .description-item {
+      margin-left: 5px; }
+      .body-values-partners .list-price .link-item .item-service .description-item.active {
+        color: #ce2041; }
+    .body-values-partners .list-price .link-item .item-service .price-item {
       margin-left: auto;
       display: inline-flex;
-      padding: 3px; }
-      .body-values-partners .list-price .item-service a .price-item:hover {
+      padding: 3px;
+      float: right; }
+      .body-values-partners .list-price .link-item .item-service .price-item.active {
         color: #fff;
         background: #ce2041;
         border-radius: 5px; }
-    .body-values-partners .list-price .item-service a .arrow-right {
+    .body-values-partners .list-price .link-item .item-service .arrow-right {
       color: #ce2041; }
 
 .list-price {
-  list-style-type: none; }
+  list-style: none; }
   .list-price:hover a {
     text-decoration: none; }
   .list-price a {

@@ -18,4 +18,6 @@
         @include('components._footer')
 
 </body>
+<script src="/build/js/template.js"></script>
+@yield('extra-scripts')
 </html>
