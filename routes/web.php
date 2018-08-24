@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route:: get('access/index',function (){
    return view('pages.index');
 });
+
+Route:: get('access/buy',function (){
+   return view('pages.buy-credit');
+});

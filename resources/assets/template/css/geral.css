@@ -6465,3 +6465,12 @@ a.text-dark:hover, a.text-dark:focus {
 .title-values-partners {
   background-color: #fff;
   text-align: center; }
+
+.name-page {
+  display: block; }
+
+.first {
+  display: block; }
+
+.second {
+  display: block; }
