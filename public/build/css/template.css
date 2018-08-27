@@ -10,6 +10,9 @@ body {
   font-size: 14px !important; }
 
 /* == Cores == */
+/* == Backgrounds == */
+/* == Fonts == */
+/* == Elements ==*/
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -6333,9 +6336,9 @@ a.text-dark:hover, a.text-dark:focus {
   height: 80px; }
 
 .navbar-nav .nav-item {
-  border-top: solid 5px transparent; }
+  border-top: solid 7px transparent; }
   .navbar-nav .nav-item:hover {
-    border-top: 5px;
+    border-top: 7px;
     border-top-color: #ce2041;
     border-top-style: solid; }
     .navbar-nav .nav-item:hover .title {
@@ -6357,7 +6360,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-footer {
   background-color: #136799;
-  color: #CAC8CC; }
+  color: #cac8cc; }
   .page-footer .container-company, .page-footer .container-contact {
     padding: 30px 0px; }
   .page-footer .title-footer {
@@ -6368,7 +6371,7 @@ a.text-dark:hover, a.text-dark:focus {
   .page-footer .btn.btn-footer {
     font-size: 12px; }
   .page-footer .btn.btn-footer {
-    background-color: #CE2041;
+    background-color: #ce2041;
     color: #cac8cc;
     padding: 0.5px !important; }
   .page-footer .partners-footer {
@@ -6384,12 +6387,14 @@ a.text-dark:hover, a.text-dark:focus {
         text-decoration: none;
         color: #cea3a8; }
   .page-footer .base-footer {
-    background-color: #CE2041;
+    background-color: #ce2041;
     padding: 10px 0px;
     font-size: 12px; }
     .page-footer .base-footer a {
       color: #cac8cc; }
 
+/*== Page index ==*/
+/* == side-left images and parthners  ==*/
 .col-md-5.only {
   padding: 0px; }
 
@@ -6423,6 +6428,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: 75% 75%;
   background-repeat: no-repeat; }
 
+/*== side-right values of search ==*/
 .header-values-partners {
   margin-bottom: 15px; }
   .header-values-partners .line-left,
@@ -6466,14 +6472,135 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #fff;
   text-align: center; }
 
-.name-page {
-  display: block; }
+/*== Page buy-credit == */
+/*== side left form ==*/
+/*== title page ==*/
+.title-page {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #B5B5B5; }
+  .title-page .arrow-right {
+    color: #ce2041;
+    font-size: 24px; }
+  .title-page .name-page {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 5px; }
 
-.first {
-  display: block; }
+/*== title section 'first buy' ==*/
+.title-section.first {
+  text-align: justify; }
+  .title-section.first::after {
+    content: '';
+    height: 0px;
+    width: 100%;
+    display: inline-block; }
+  .title-section.first a:hover {
+    text-decoration: none;
+    color: #fff; }
+  .title-section.first a .btnClient {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ce2041;
+    color: #fff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px; }
+    .title-section.first a .btnClient:hover {
+      background-color: #e74866;
+      cursor: pointer;
+      -webkit-transition: background-color .5s;
+      -moz-transition: background-color .5s;
+      -ms-transition: background-color .5s;
+      -o-transition: background-color .5s;
+      transition: background-color .5s; }
+  .title-section.first .name-section {
+    display: inline-block; }
 
-.second {
+.title-section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #B5B5B5;
   display: block; }
+  .title-section .name-section {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #5d5d5d; }
+
+/*== section buy-credit form ==*/
+.form {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/*== section payment ==*/
+.label-select {
+  margin-top: 40px;
+  margin-bottom: 10px; }
+
+.choose-way-payment {
+  display: block;
+  border-bottom: 1px dotted #B5B5B5;
+  margin-bottom: 50px; }
+  .choose-way-payment .content-items {
+    list-style: none;
+    margin-bottom: 0px; }
+    .choose-way-payment .content-items a:hover {
+      text-decoration: none; }
+    .choose-way-payment .content-items .itmes-payment {
+      display: inline-block;
+      padding: 10px;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      -webkit-transition: all .8s;
+      -moz-transition: all .8s;
+      -o-transition: all .8s;
+      transition: all .8s; }
+      .choose-way-payment .content-items .itmes-payment:hover {
+        background-color: #ce2041;
+        -webkit-transition: background .8s;
+        -moz-transition: background .8s;
+        -o-transition: background .8s;
+        transition: background .8s; }
+      .choose-way-payment .content-items .itmes-payment img {
+        width: 60px;
+        height: 35px; }
+
+.text-check {
+  font-size: 12px;
+  line-height: 1px; }
+
+.input-check {
+  margin-bottom: 20px; }
+
+.conditions-use {
+  color: #ce2041; }
+  .conditions-use:hover {
+    color: #ce2041;
+    text-decoration: none; }
+
+.btnFinal {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 10px 15px; }
+
+/*== section basic instructions ==*/
+.content-basic-instrutions {
+  margin-top: 20px;
+  font-size: 12px; }
+
+/*== side right logo ==*/
+.second img {
+  width: 170px;
+  float: right; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400");
 @import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");

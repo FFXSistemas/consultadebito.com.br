@@ -16,7 +16,6 @@
                         <div class="btn btn-success py-2 mt-2 mb-2">Botão comprar</div>
                     </div>
                 </div>
-
             </div>
 
             <div class="col-md-5">

@@ -7,6 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Consulta Débito</title>
     <link rel="stylesheet" href="/build/css/template.css">
+
+    <style>
+        body::before{
+            content: "";
+            width: 100%;
+            height: 7px;
+            background: #136799;
+            position: absolute;
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
