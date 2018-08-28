@@ -3,22 +3,42 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-8">
+                <div class="title-page">
+                    <span class="arrow-right"><i class="fas fa-angle-right"></i></span>
+                    <span class="name-page">Consultas e serviços</span>
+                </div>
                 <div class="row">
-                    <div class="col-md-5 only">
-                        <div class="image-man bg-man">
+                    <div class="col-md-8">
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="cpf">Cód. de acesso</label>
+                                <input type="tel" class="form-control" id="cpf">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="password">Senha</label>
+                                <input type="text" class="form-control" id="ddd">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <button class="btnEntrar">Entrar</button>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-7">
-                        <div class="partners-brand first"></div>
-                        <div class="calling"><p>Consultas Cadastrais</p></div>
-                        <div class="partners-brand second"></div>
-                        <div class="btn btn-success btnFinal py-2 mt-2 mb-2">Comprar crédito</div>
+                    <div class="col-md-4">
+                        <div class="second">
+                            <img src="https://i.imgur.com/mreSNEN.png" alt="seresa expirian">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="new-client">Novo cliente</div>
+                        <button class="btn btn-success btnFinal">Comprar crédito</button>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <div class="values-services-serasa mb-5">
                     <div class="header-values-partners">
                         <div class="row">

@@ -6327,6 +6327,38 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+/*== Button style ==*/
+/*== btn green ==*/
+.btnFinal {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 10px 15px; }
+
+/*== btn rose ==*/
+.button {
+  text-align: right; }
+  .button .btnEnviar {
+    padding: 5px 10px;
+    background: #ce2041;
+    color: #fff;
+    display: inline-block; }
+
+/*== title page ==*/
+.title-page {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #B5B5B5; }
+  .title-page .arrow-right {
+    color: #ce2041;
+    font-size: 24px; }
+  .title-page .name-page {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-left: 5px; }
+
 .navbar {
   padding: 0px;
   border-bottom: 1px dotted #B5B5B5; }
@@ -6474,20 +6506,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 /*== Page buy-credit == */
 /*== side left form ==*/
-/*== title page ==*/
-.title-page {
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: 1px dotted #B5B5B5; }
-  .title-page .arrow-right {
-    color: #ce2041;
-    font-size: 24px; }
-  .title-page .name-page {
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin-left: 5px; }
-
 /*== title section 'first buy' ==*/
 .title-section.first {
   text-align: justify; }
@@ -6585,13 +6603,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: #ce2041;
     text-decoration: none; }
 
-.btnFinal {
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  font-size: 13px;
-  padding: 10px 15px; }
-
 /*== section basic instructions ==*/
 .content-basic-instrutions {
   margin-top: 20px;
@@ -6638,6 +6649,20 @@ a.text-dark:hover, a.text-dark:focus {
     background: #ce2041;
     color: #fff;
     display: inline-block; }
+
+/*== Page query ==*/
+.btnEntrar {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 1.9rem;
+  font-size: 13px;
+  padding: 5px 15px; }
+
+.new-client {
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 5px; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400");
 @import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");

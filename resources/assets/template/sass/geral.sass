@@ -1,22 +1,30 @@
-//reset styles
-@import components/reset
+//include components/molecules
+@import components/molecules/reset
+@import components/molecules/mixins
 
+
+//import fonts
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400')
 @import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css')
-@import components/mixins
+
 
 //include of plugins style
 @import ../../../../node_modules/bootstrap/scss/bootstrap
-
 @import ../../../../node_modules/breakpoint-sass/stylesheets/breakpoint
 
 
-//include components
-@import components/navbar
-@import components/footer
+//include components/atoms
+@import components/atoms/botoes
+@import components/atoms/name-section-page
+
+
+//include components/organisms
+@import components/organisms/navbar
+@import components/organisms/footer
 
 
 //include pages
 @import pages/index
 @import pages/buy-credit
 @import pages/attendance
+@import pages/query

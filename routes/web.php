@@ -26,3 +26,7 @@ Route:: get('access/buy',function (){
 Route:: get('access/attendance',function (){
    return view('pages.attendance');
 });
+
+Route:: get('access/query',function (){
+   return view('pages.query');
+});
