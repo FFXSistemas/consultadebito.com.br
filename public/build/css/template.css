@@ -6602,5 +6602,42 @@ a.text-dark:hover, a.text-dark:focus {
   width: 170px;
   float: right; }
 
+/*== Page attendance ==*/
+/*== title sections ==*/
+.title-section-attendance {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #B5B5B5;
+  display: block; }
+  .title-section-attendance .name-section-attendance {
+    font-size: 18px;
+    color: #5d5d5d; }
+
+/*== section questions ==*/
+.services-consults .name-topic-question, .payments-values .name-topic-question {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #B5B5B5;
+  font-weight: bold; }
+
+.services-consults .list-questions, .payments-values .list-questions {
+  list-style-type: none; }
+  .services-consults .list-questions .items-questions a, .payments-values .list-questions .items-questions a {
+    color: #ce2041; }
+    .services-consults .list-questions .items-questions a:hover, .payments-values .list-questions .items-questions a:hover {
+      text-decoration: none;
+      color: #741427; }
+  .services-consults .list-questions .items-questions i, .payments-values .list-questions .items-questions i {
+    color: #5d5d5d; }
+
+/*== section message ==*/
+.button {
+  text-align: right; }
+  .button .btnEnviar {
+    padding: 5px 10px;
+    background: #ce2041;
+    color: #fff;
+    display: inline-block; }
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400");
 @import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");

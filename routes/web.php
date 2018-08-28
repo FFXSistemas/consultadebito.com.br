@@ -22,3 +22,7 @@ Route:: get('access/index',function (){
 Route:: get('access/buy',function (){
    return view('pages.buy-credit');
 });
+
+Route:: get('access/attendance',function (){
+   return view('pages.attendance');
+});

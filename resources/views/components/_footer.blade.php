@@ -23,7 +23,7 @@
                 <div class="partners-footer">
                     <div class="row">
                         <div class="col-md-6">
-                            <img src="https://i.imgur.com/jix4HmA.png/" width="180" height="60" alt="Serasa">
+                            <img src="https://i.imgur.com/jix4HmA.png" width="180" height="60" alt="Serasa">
                         </div>
                         <div class="col-md-6">
                             <img src="https://i.imgur.com/wSg8oe8.png" class="mt-3 ml-5" width="150" height="30" alt="Localize">
